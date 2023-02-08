@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.cubes-area {
+  width: 402px;
+  height: 402px;
+  border: 1px solid #e7e7e7;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cube:nth-child(even) {
+  background-color: red;
+}
+
+.cube:nth-child(odd) {
+  color: yellow;
+}
